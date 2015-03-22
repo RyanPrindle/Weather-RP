@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/forcastLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/black">
+
+        <TextView
+            android:id="@+id/dayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highImageView"
+        android:src="@drawable/ic_reduptriangleicon"
+        android:contentDescription="@string/icon_cont_desc"
+        android:scaleType="center"
+        android:maxHeight="15dp"
+        android:adjustViewBounds="true"
+        android:layout_toLeftOf="@+id/iconImageView"
+        android:layout_alignTop="@+id/iconImageView"/>
+
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:textColor="@android:color/white"
+        android:textSize="11sp"
+        android:layout_toRightOf="@+id/highImageView"
+        android:layout_toEndOf="@+id/highImageView"
+        android:layout_alignTop="@+id/iconImageView"/>
+
+
+    <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dunno"
+            android:contentDescription="@string/icon_cont_desc"
+            android:adjustViewBounds="false"
+            android:layout_below="@+id/dayTextView"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lowImageView"
+        android:src="@drawable/ic_bluedowntriangleicon"
+        android:contentDescription="@string/icon_cont_desc"
+        android:scaleType="center"
+        android:maxHeight="15dp"
+        android:adjustViewBounds="true"
+        android:layout_alignBottom="@+id/iconImageView"
+        android:layout_toLeftOf="@+id/iconImageView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempLowTextView"
+        android:text="@string/loading"
+        android:textColor="@android:color/white"
+        android:textSize="11sp"
+        android:layout_toRightOf="@+id/lowImageView"
+        android:layout_toEndOf="@+id/lowImageView"
+        android:layout_alignBottom="@+id/iconImageView"/>
+
+    <TextView
+            android:id="@+id/summaryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:lines="4"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/iconImageView"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"/>
+
+</RelativeLayout>
+
+

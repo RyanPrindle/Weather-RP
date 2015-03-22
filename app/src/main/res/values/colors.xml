@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="swipeRefresh1">@android:color/holo_orange_light</color>
+    <color name="swipeRefresh2">@android:color/holo_red_dark</color>
+    <color name="swipeRefresh3">@android:color/holo_blue_light</color>
+    <color name="swipeRefresh4">@android:color/holo_green_light</color>
+    <color name="mainBackground">@android:color/black</color>
+</resources>

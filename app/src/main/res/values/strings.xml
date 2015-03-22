@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather RP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_humidity">...</string>
+    <string name="empty_total_precip">...</string>
+    <string name="empty_summary">Loading...</string>
+    <string name="empty_temp">--</string>
+    <string name="empty_date">Date</string>
+    <string name="icon_cont_desc">icon_cont_desc</string>
+    <string name="degree_icon_desc">degree symbol</string>
+    <string name="empty_location">location</string>
+    <string name="empty_time">--:--</string>
+    <string name="menu_location_title">Location</string>
+    <string name="menu_provider_title">Weather Provider</string>
+    <string name="title_activity_location">Location</string>
+    <string name="location_label">Please enter a city or zip code:</string>
+    <string name="location_edit_text_hint">City or Zip code</string>
+    <string name="search_location_button_title">Search for Location</string>
+    <string name="empty_textview_label">No Locations Found</string>
+    <string name="degree_imageview_cont_desc">degree symbol</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="precip_label">Precipitation</string>
+    <string name="loading">--</string>
+    <string name="powered_by_forecast">Powered by ForecastIO</string>
+    <string name="wu_timer_message">Must wait ten minutes between WeatherUnderground weather updates.</string>
+    <string name="fio_timer_message">Must wait ten minutes between ForecastIO weather updates.</string>
+    <string name="weather_icon_cont_desc">Weather Icon</string>
+    <string name="divider_cont_desc">Divider</string>
+    <string name="wu_logo_cont_desc">Weather Underground Logo</string>
+    <string name="cancel_button_text">Cancel</string>
+</resources>
